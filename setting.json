@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Cihaz ve aksesuar; görseller temsilîdir.",
+    "en": "Devices and accessories; images are representative.",
+    "ar": "أجهزة وإكسسوارات؛ الصور تمثيلية."
+  },
+  "keyword": {
+    "tr": "cihaz, teknoloji, mağaza",
+    "en": "device, technology, store",
+    "ar": "جهاز، تقنية، متجر"
+  },
+  "category": "Kurumsal",
+  "name": "Tekno Mağaza",
+  "domain": "magaza.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "inter",
+    "heading": "poppins",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#4A6FE0",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "4px",
+    "--mx-radius-md": "6px",
+    "--mx-radius-lg": "8px",
+    "--mx-radius-xl": "11px"
+  },
+  "icon": "icon.png"
+}
