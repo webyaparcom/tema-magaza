@@ -1,0 +1,40 @@
+{
+  "id": "awej2v29sn",
+  "name": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "description": {
+    "tr": "Seçimden kurguya; cihazdan desteğe.",
+    "en": "From choice to setup; from device to support.",
+    "ar": "من الاختيار إلى الإعداد؛ من الجهاز إلى الدعم."
+  },
+  "keyword": {
+    "tr": "Cihaz & Teknoloji",
+    "en": "Device & Technology",
+    "ar": "جهاز وتقنية"
+  },
+  "path": "hizmetler",
+  "icon": "work",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "j1pz4j",
+      "sp3ti2"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "date": "2026-11-05T18:57:25.396Z",
+  "update": "2026-11-05T23:44:43.221Z"
+}
