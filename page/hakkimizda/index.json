@@ -21,9 +21,9 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Cihaz ve aksesuar; görseller temsilîdir.",
-    "en": "Devices and accessories; images are representative.",
-    "ar": "أجهزة وإكسسوارات؛ الصور تمثيلية."
+    "tr": "Cihaz, aksesuar ve teknik servis; görseller temsilîdir.",
+    "en": "Devices, accessories and technical service; images are representative.",
+    "ar": "أجهزة وإكسسوارات وخدمة فنية؛ الصور تمثيلية."
   },
   "spot": {
     "tr": "",
@@ -42,6 +42,6 @@
     "ar": "من نحن"
   },
   "text": {},
-  "update": "2026-11-05T23:44:43.224Z",
+  "update": "2026-11-12T07:36:28.729Z",
   "date": "2026-10-30"
 }

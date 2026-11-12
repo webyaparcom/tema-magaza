@@ -1,7 +1,7 @@
 {
   "name": "Tekno Mağaza",
   "short_name": "Tekno Mağaza",
-  "description": "Cihaz ve aksesuar; görseller temsilîdir.",
+  "description": "Tekno Mağaza: dizüstü, akıllı saat, kulaklık ve aksesuar satışı; teknik servis ve garanti desteği. Görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",
