@@ -6,14 +6,14 @@
     "ar": "خدماتنا"
   },
   "description": {
-    "tr": "Seçimden kurguya; cihazdan desteğe.",
-    "en": "From choice to setup; from device to support.",
-    "ar": "من الاختيار إلى الإعداد؛ من الجهاز إلى الدعم."
+    "tr": "Dizüstünden aksesuara; seçimden satış sonrası desteğe.",
+    "en": "From laptops to accessories; from choosing to after-sales support.",
+    "ar": "من الحواسيب المحمولة إلى الإكسسوارات؛ من الاختيار إلى الدعم بعد البيع."
   },
   "keyword": {
-    "tr": "Cihaz & Teknoloji",
-    "en": "Device & Technology",
-    "ar": "جهاز وتقنية"
+    "tr": "Ürün grupları",
+    "en": "Product groups",
+    "ar": "مجموعات المنتجات"
   },
   "path": "hizmetler",
   "icon": "work",
@@ -36,5 +36,5 @@
     "ar": "خدماتنا"
   },
   "date": "2026-11-05T18:57:25.396Z",
-  "update": "2026-11-05T23:44:43.221Z"
+  "update": "2026-11-12T07:36:28.726Z"
 }

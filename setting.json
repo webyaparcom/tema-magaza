@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Cihaz ve aksesuar; görseller temsilîdir.",
-    "en": "Devices and accessories; images are representative.",
-    "ar": "أجهزة وإكسسوارات؛ الصور تمثيلية."
+    "tr": "Tekno Mağaza: dizüstü, akıllı saat, kulaklık ve aksesuar satışı; teknik servis ve garanti desteği. Görseller temsilîdir.",
+    "en": "Tekno Mağaza: laptops, smartwatches, headphones and accessories, with technical service and warranty support. Images are representative.",
+    "ar": "تكنو ماغازا: بيع حواسيب محمولة وساعات ذكية وسماعات وإكسسوارات مع خدمة فنية ودعم للضمان. الصور تمثيلية."
   },
   "keyword": {
-    "tr": "cihaz, teknoloji, mağaza",
-    "en": "device, technology, store",
-    "ar": "جهاز، تقنية، متجر"
+    "tr": "teknoloji mağazası, dizüstü, kulaklık, akıllı saat, teknik servis",
+    "en": "electronics store, laptop, headphones, smartwatch, technical service",
+    "ar": "متجر إلكترونيات، حاسوب محمول، سماعات، ساعة ذكية، خدمة فنية"
   },
   "category": "Kurumsal",
   "name": "Tekno Mağaza",

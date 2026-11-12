@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Seçimden kurguya; cihazdan desteğe.",
-        "en": "From choice to setup; from device to support.",
-        "ar": "من الاختيار إلى الإعداد؛ من الجهاز إلى الدعم."
+        "tr": "Dizüstünden aksesuara; seçimden satış sonrası desteğe.",
+        "en": "From laptops to accessories; from choosing to after-sales support.",
+        "ar": "من الحواسيب المحمولة إلى الإكسسوارات؛ من الاختيار إلى الدعم بعد البيع."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -49,9 +49,9 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Cihaz ve aksesuar; görseller temsilîdir.",
-        "en": "Devices and accessories; images are representative.",
-        "ar": "أجهزة وإكسسوارات؛ الصور تمثيلية."
+        "tr": "Cihaz, aksesuar ve teknik servis; görseller temsilîdir.",
+        "en": "Devices, accessories and technical service; images are representative.",
+        "ar": "أجهزة وإكسسوارات وخدمة فنية؛ الصور تمثيلية."
       }
     },
     {

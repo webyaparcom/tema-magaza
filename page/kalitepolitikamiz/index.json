@@ -27,9 +27,9 @@
   "index": 2,
   "url": "",
   "text": {
-    "tr": "<h2>Kalite Politikamız</h2>\n<p>Cihaz ve kurulum kaydı kontrolü.</p>",
-    "en": "<h2>Our quality policy</h2>\n<p>Device and setup record control.</p>",
-    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>تحقق سجل الجهاز والإعداد.</p>"
+    "tr": "<h2>Kalite Politikamız</h2>\n<p>Orijinal ürün, faturalı satış, açık garanti bilgisi ve servis kaydı esastır.</p>",
+    "en": "<h2>Our quality policy</h2>\n<p>Genuine products, invoiced sales, clear warranty information and service records are essential.</p>",
+    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>المنتجات الأصلية والبيع بفاتورة ومعلومات الضمان الواضحة وسجلات الصيانة أساس عملنا.</p>"
   },
   "title": {
     "tr": "Kalite Politikamız",
@@ -37,7 +37,7 @@
     "ar": "سياسة الجودة"
   },
   "date": "2026-11-05T18:57:25.236Z",
-  "update": "2026-11-05T23:44:43.244Z",
+  "update": "2026-11-12T07:36:28.752Z",
   "sablonIzi": "acedf6b7c400faec",
   "sablonIziDil": {
     "en": "587042c99dce90ca",

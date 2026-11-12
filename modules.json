@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,9 +1489,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Fiyat sorun",
+          "en": "Ask for a price",
+          "ar": "اسأل عن السعر"
         },
         "cta_url": "teklif-al"
       },
@@ -1533,30 +1544,30 @@
         "bg": "var(--mx-site-bg, #ffffff)",
         "radius": "16px",
         "eyebrow": {
-          "tr": "Cihaz & teknoloji",
-          "en": "Devices & tech",
-          "ar": "أجهزة وتقنية"
+          "tr": "Teknoloji mağazası",
+          "en": "Electronics store",
+          "ar": "متجر إلكترونيات"
         },
         "title": {
-          "tr": "Cihaz, elinde",
-          "en": "Device, in your hand",
-          "ar": "الجهاز بيدك"
+          "tr": "Cihazı seçin, kurulumu biz yapalım",
+          "en": "Pick the device, we set it up",
+          "ar": "اختر الجهاز ونحن نتولى إعداده"
         },
         "metin": {
-          "tr": "Tekno Mağaza, cihaz ve aksesuar satıyor. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Tekno sells devices and accessories. Images are representative and text is fictional.",
-          "ar": "يباع تكنو أجهزة وإكسسوارات. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Dizüstü, akıllı saat, kulaklık ve aksesuar tek rafta; satış sonrası destek ve servis aynı çatıda. Görseller temsilî, metinler kurgusaldır.",
+          "en": "Laptops, smartwatches, headphones and accessories on one shelf, with after-sales support and service under the same roof. Images are representative and text is fictional.",
+          "ar": "حواسيب محمولة وساعات ذكية وسماعات وإكسسوارات في مكان واحد، مع الدعم بعد البيع والصيانة تحت سقف واحد. الصور تمثيلية والنصوص افتراضية."
         },
         "cta1": {
-          "tr": "Kartlar",
-          "en": "Cards",
-          "ar": "بطاقات"
+          "tr": "Ürün grupları",
+          "en": "Product groups",
+          "ar": "مجموعات المنتجات"
         },
         "cta1_url": "hizmetler",
         "cta2": {
-          "tr": "Fiyat iste",
-          "en": "Request price",
-          "ar": "اطلب سعر"
+          "tr": "Fiyat sorun",
+          "en": "Ask for a price",
+          "ar": "اسأل عن السعر"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1601,9 +1612,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Ne sunuyoruz?",
-          "en": "What do we offer?",
-          "ar": "ماذا نقدم؟"
+          "tr": "Neler satıyoruz?",
+          "en": "What do we sell?",
+          "ar": "ماذا نبيع؟"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1614,62 +1625,62 @@
       "data": [
         {
           "deger": 30,
-          "sonek": "",
+          "sonek": "+",
           "ikon": "laptop_windows",
           "etiket": {
-            "tr": "Cihaz tipi",
-            "en": "Device types",
-            "ar": "أنواع الأجهزة"
+            "tr": "Cihaz modeli",
+            "en": "Device models",
+            "ar": "طراز جهاز"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
             "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
+            "ar": "قيمة تجريبية افتراضية"
           }
         },
         {
           "deger": 12,
-          "sonek": "",
-          "ikon": "memory",
+          "sonek": "+",
+          "ikon": "headphones",
           "etiket": {
-            "tr": "Aksesuar",
-            "en": "Accessories",
-            "ar": "إكسسوارات"
+            "tr": "Aksesuar çeşidi",
+            "en": "Accessory types",
+            "ar": "نوع إكسسوار"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
             "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
+            "ar": "قيمة تجريبية افتراضية"
           }
         },
         {
-          "deger": 98,
-          "sonek": "%",
-          "ikon": "paid",
+          "deger": 24,
+          "sonek": "",
+          "ikon": "verified_user",
           "etiket": {
-            "tr": "Kurulum zamanında",
-            "en": "On-time setup",
-            "ar": "إعداد في الوقت"
+            "tr": "Azami garanti (ay)",
+            "en": "Max. warranty (months)",
+            "ar": "أقصى ضمان (بالأشهر)"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
             "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
+            "ar": "قيمة تجريبية افتراضية"
           }
         },
         {
           "deger": 5,
           "sonek": "",
-          "ikon": "local_shipping",
+          "ikon": "build",
           "etiket": {
-            "tr": "Yedek parça",
-            "en": "Spare parts",
-            "ar": "قطع غيار"
+            "tr": "Servis teknisyeni",
+            "en": "Service technicians",
+            "ar": "فنيو الصيانة"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
             "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
+            "ar": "قيمة تجريبية افتراضية"
           }
         }
       ],
@@ -1695,98 +1706,98 @@
         "badgebg": "#2E6BFF",
         "badgecolor": "#ffffff",
         "badge": {
-          "tr": "Cihaz & Teknoloji",
-          "en": "Device & Technology",
-          "ar": "جهاز وتقنية"
+          "tr": "Ürün grupları",
+          "en": "Product groups",
+          "ar": "مجموعات المنتجات"
         },
         "title": {
-          "tr": "Ne sunuyoruz?",
-          "en": "What do we offer?",
-          "ar": "ماذا نقدم؟"
+          "tr": "Neler satıyoruz?",
+          "en": "What do we sell?",
+          "ar": "ماذا نبيع؟"
         },
         "description": {
-          "tr": "Seçimden kurguya; cihazdan desteğe.",
-          "en": "From choice to setup; from device to support.",
-          "ar": "من الاختيار إلى الإعداد؛ من الجهاز إلى الدعم."
+          "tr": "Dizüstünden aksesuara; seçimden satış sonrası desteğe.",
+          "en": "From laptops to accessories; from choosing to after-sales support.",
+          "ar": "من الحواسيب المحمولة إلى الإكسسوارات؛ من الاختيار إلى الدعم بعد البيع."
         }
       },
       "data": [
         {
           "icon": "laptop_windows",
           "name": {
-            "tr": "Dizustu ve masaüstü",
+            "tr": "Dizüstü ve masaüstü",
             "en": "Laptops and desktops",
-            "ar": "حواسيب محمول وثابت"
+            "ar": "حواسيب محمولة ومكتبية"
           },
           "description": {
-            "tr": "Sistem ve donanım seçimi.",
-            "en": "Systems and hardware choice.",
-            "ar": "اختيار نظام وعتاد."
+            "tr": "Kullanım amacına ve bütçeye göre model seçimi.",
+            "en": "Model selection by intended use and budget.",
+            "ar": "اختيار الطراز حسب الاستخدام والميزانية."
           }
         },
         {
-          "icon": "memory",
+          "icon": "watch",
           "name": {
-            "tr": "Bilezik ve aksesuar",
-            "en": "Watch and accessories",
-            "ar": "ساعة وإكسسوارات"
+            "tr": "Akıllı saat ve bileklik",
+            "en": "Smartwatches and bands",
+            "ar": "ساعات وأساور ذكية"
           },
           "description": {
-            "tr": "Saat ve küçük cihaz.",
-            "en": "Watch and small device.",
-            "ar": "ساعة وجهاز صغير."
+            "tr": "Günlük ve spor modelleri; kayış ve şarj aksesuarları.",
+            "en": "Everyday and sports models, plus straps and charging accessories.",
+            "ar": "طرازات يومية ورياضية مع أحزمة وملحقات شحن."
+          }
+        },
+        {
+          "icon": "headphones",
+          "name": {
+            "tr": "Kulaklık ve hoparlör",
+            "en": "Headphones and speakers",
+            "ar": "سماعات رأس ومكبرات صوت"
+          },
+          "description": {
+            "tr": "Kablosuz ve kablolu modeller; tezgâhta deneyebilirsiniz.",
+            "en": "Wireless and wired models; you can try them at the counter.",
+            "ar": "طرازات لاسلكية وسلكية يمكنك تجربتها على الطاولة."
           }
         },
         {
           "icon": "keyboard",
           "name": {
-            "tr": "Ofi seti",
-            "en": "Office set",
-            "ar": "طقم مكتب"
+            "tr": "Klavye, fare ve monitör",
+            "en": "Keyboards, mice and monitors",
+            "ar": "لوحات مفاتيح وفأرات وشاشات"
           },
           "description": {
-            "tr": "Klavye, mouse ve monitör.",
-            "en": "Keyboard, mouse and monitor.",
-            "ar": "لوحة مفاتيح وفأرة وشاشة."
+            "tr": "Ofis ve oyun için çevre birimleri.",
+            "en": "Peripherals for the office and for gaming.",
+            "ar": "ملحقات للمكتب وللألعاب."
           }
         },
         {
-          "icon": "paid",
+          "icon": "build",
           "name": {
-            "tr": "Talep ve onarım",
-            "en": "Request and repair",
-            "ar": "طلب وإصلاح"
+            "tr": "Teknik servis",
+            "en": "Technical service",
+            "ar": "خدمة فنية"
           },
           "description": {
-            "tr": "Arıza ve bakım kaydı.",
-            "en": "Fault and maintenance record.",
-            "ar": "سجل عطل وصيانة."
+            "tr": "Arıza tespiti, ekran ve batarya değişimi; onarım öncesinde bilgi verilir.",
+            "en": "Fault diagnosis and screen or battery replacement; you are informed before any repair.",
+            "ar": "فحص الأعطال وتبديل الشاشة والبطارية؛ ويُبلَّغ العميل قبل أي إصلاح."
           }
         },
         {
-          "icon": "graphic_eq",
+          "icon": "verified_user",
           "name": {
-            "tr": "Oyun ve grafik",
-            "en": "Games and graphics",
-            "ar": "ألعاب ورسوم"
+            "tr": "Garanti ve iade",
+            "en": "Warranty and returns",
+            "ar": "الضمان والإرجاع"
           },
           "description": {
-            "tr": "Oyun ve grafik cihazı (demo).",
-            "en": "Game and graphics device (demo).",
-            "ar": "جهاز ألعاب ورسوم (تجريبي)."
-          }
-        },
-        {
-          "icon": "local_shipping",
-          "name": {
-            "tr": "Yedek parça",
-            "en": "Spare part",
-            "ar": "قطع غيار"
-          },
-          "description": {
-            "tr": "Parça ve teslim (demo).",
-            "en": "Part and delivery (demo).",
-            "ar": "قطعة وتسليم (تجريبي)."
+            "tr": "Süre cihaza göre değişir; belgeler faturayla birlikte verilir.",
+            "en": "The term varies by device; documents are issued with the invoice.",
+            "ar": "تختلف المدة حسب الجهاز؛ وتُسلَّم الوثائق مع الفاتورة."
           }
         }
       ],
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Nasıl alışveriş edilir?",
+          "en": "How buying works",
+          "ar": "كيف يتم الشراء؟"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Seçimden desteğe dört adım",
+          "en": "Four steps from choice to support",
+          "ar": "أربع خطوات من الاختيار إلى الدعم"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "İhtiyaç belirlemeden satış sonrası desteğe.",
+          "en": "From defining your needs to after-sales support.",
+          "ar": "من تحديد الحاجة إلى الدعم بعد البيع."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1836,40 +1847,40 @@
         {
           "year": "01",
           "title": {
-            "tr": "Seçim",
-            "en": "Choice",
-            "ar": "الاختيار"
+            "tr": "İhtiyaç",
+            "en": "Needs",
+            "ar": "الحاجة"
           },
           "text": {
-            "tr": "Bütçe ve kullanma amacı.",
-            "en": "Budget and purpose of use.",
-            "ar": "ميزانية وغرض استعمال."
+            "tr": "Bütçe ve kullanım amacı konuşulur.",
+            "en": "Budget and intended use are discussed.",
+            "ar": "تُناقش الميزانية والاستخدام المقصود."
           }
         },
         {
           "year": "02",
           "title": {
-            "tr": "Teslim",
-            "en": "Handover",
-            "ar": "التسليم"
+            "tr": "Seçim",
+            "en": "Choice",
+            "ar": "الاختيار"
           },
           "text": {
-            "tr": "Cihaz ve aksesuar.",
-            "en": "Device and accessories.",
-            "ar": "جهاز وإكسسوارات."
+            "tr": "Modeller yan yana karşılaştırılır; stok durumu kontrol edilir.",
+            "en": "Models are compared side by side and stock is checked.",
+            "ar": "تُقارن الطرازات جنبًا إلى جنب ويُتحقق من المخزون."
           }
         },
         {
           "year": "03",
           "title": {
-            "tr": "Kurulum",
-            "en": "Setup",
-            "ar": "الإعداد"
+            "tr": "Teslim ve kurulum",
+            "en": "Handover and setup",
+            "ar": "التسليم والإعداد"
           },
           "text": {
-            "tr": "Nizam ve hesaba işleme.",
-            "en": "System and account setup.",
-            "ar": "إعداد نظام وحساب."
+            "tr": "Cihaz açılır, ilk kurulum yapılır; fatura düzenlenir.",
+            "en": "The device is unboxed, first setup is done and the invoice is issued.",
+            "ar": "يُفتح الجهاز ويُجرى الإعداد الأولي وتُصدر الفاتورة."
           }
         },
         {
@@ -1880,9 +1891,9 @@
             "ar": "الدعم"
           },
           "text": {
-            "tr": "Arıza ve bakım talebi.",
-            "en": "Fault and maintenance request.",
-            "ar": "طلب عطل وصيانة."
+            "tr": "Garanti ve servis talepleri tek noktadan alınır.",
+            "en": "Warranty and service requests are handled from one point.",
+            "ar": "تُستقبل طلبات الضمان والصيانة من نقطة واحدة."
           }
         }
       ],
@@ -1911,14 +1922,14 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Danışmanlarımız",
+          "en": "Our advisors",
+          "ar": "مستشارونا"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Size yardım edecek ekip",
+          "en": "The team that helps you",
+          "ar": "الفريق الذي يساعدك"
         },
         "description": {
           "tr": "Kurgusal demo profiller.",
@@ -1932,42 +1943,42 @@
         {
           "name": "Kadir T.",
           "role": {
-            "tr": "Satış",
+            "tr": "Satış danışmanı",
             "en": "Sales advisor",
-            "ar": "مبيعات"
+            "ar": "مستشار مبيعات"
           },
           "bio": {
-            "tr": "7 yıl cihaz.",
-            "en": "7 years of devices.",
-            "ar": "٧ سنوات في الأجهزة."
+            "tr": "Dizüstü ve çevre birimlerinde 7 yıl (kurgusal).",
+            "en": "7 years with laptops and peripherals (fictional).",
+            "ar": "7 سنوات في الحواسيب المحمولة والملحقات (افتراضية)."
           },
           "img": ""
         },
         {
           "name": "Buse A.",
           "role": {
-            "tr": "Teknik",
-            "en": "Service technician",
-            "ar": "تقني"
+            "tr": "Teknik servis sorumlusu",
+            "en": "Service lead",
+            "ar": "مسؤولة الخدمة الفنية"
           },
           "bio": {
-            "tr": "6 yıl bakım.",
-            "en": "6 years of maintenance.",
-            "ar": "٦ سنوات في الصيانة."
+            "tr": "Arıza tespiti ve onarımda 6 yıl (kurgusal).",
+            "en": "6 years in fault diagnosis and repair (fictional).",
+            "ar": "6 سنوات في فحص الأعطال والإصلاح (افتراضية)."
           },
           "img": ""
         },
         {
           "name": "Onur B.",
           "role": {
-            "tr": "Kurulum",
-            "en": "Installation technician",
-            "ar": "إعداد"
+            "tr": "Kurulum teknisyeni",
+            "en": "Setup technician",
+            "ar": "فني إعداد"
           },
           "bio": {
-            "tr": "3 yıl nizam.",
-            "en": "3 years of systems.",
-            "ar": "٣ سنوات في الأنظمة."
+            "tr": "Yazılım yükleme ve veri aktarımında 3 yıl (kurgusal).",
+            "en": "3 years in software installation and data transfer (fictional).",
+            "ar": "3 سنوات في تثبيت البرامج ونقل البيانات (افتراضية)."
           },
           "img": ""
         }
@@ -1998,9 +2009,9 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "starcolor": "#f59e0b",
         "badge": {
-          "tr": "Müşteri yorumları",
-          "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "tr": "Yorumlar",
+          "en": "Reviews",
+          "ar": "التقييمات"
         },
         "title": {
           "tr": "Müşterilerimiz ne diyor?",
@@ -2021,14 +2032,14 @@
           "role": {
             "tr": "Müşteri",
             "en": "Customer",
-            "ar": "زبون"
+            "ar": "عميل"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Cihaz zamanında geldi; kurulum net.",
-            "en": "Device arrived on time; setup is clear.",
-            "ar": "وصل الجهاز في الوقت؛ الإعداد واضح."
+            "tr": "Dizüstü için üç modeli yan yana gösterdiler; ilk kurulumu da yaptılar.",
+            "en": "They showed three laptop models side by side and also did the first setup.",
+            "ar": "عرضوا لي ثلاثة طرازات من الحواسيب جنبًا إلى جنب وأجروا الإعداد الأولي أيضًا."
           }
         },
         {
@@ -2041,24 +2052,24 @@
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Aksesuar eksiksiz idi.",
-            "en": "Accessories were complete.",
-            "ar": "كانت الإكسسوارات كاملة."
+            "tr": "Kulaklığı tezgâhta denedim; fatura ve garanti belgesi eksiksiz verildi.",
+            "en": "I tried the headphones at the counter; the invoice and warranty papers were complete.",
+            "ar": "جرّبت السماعة على الطاولة؛ وسُلِّمت الفاتورة ووثيقة الضمان كاملتين."
           }
         },
         {
           "name": "S. Doğan",
           "role": {
             "tr": "Ofis",
-            "en": "Office client",
+            "en": "Office",
             "ar": "مكتب"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Yedek parça hızlı bulundu.",
-            "en": "Spare part was found quickly.",
-            "ar": "وُجدت القطعة الغيار سريعًا."
+            "tr": "Ofis için klavye ve monitör siparişi iki günde hazırdı; servis sorunumuza hızlı baktı.",
+            "en": "Our keyboard and monitor order for the office was ready in two days; service looked into our issue quickly.",
+            "ar": "كان طلب لوحات المفاتيح والشاشات للمكتب جاهزًا خلال يومين، ونظرت الصيانة في مشكلتنا بسرعة."
           }
         }
       ],
@@ -2103,19 +2114,19 @@
         "radius": "6px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Raftan öne çıkanlar",
+          "en": "From the shelf",
+          "ar": "من الرف"
         },
         "title": {
-          "tr": "Ne sunuyoruz?",
-          "en": "What do we offer?",
-          "ar": "ماذا نقدم؟"
+          "tr": "Neler satıyoruz?",
+          "en": "What do we sell?",
+          "ar": "ماذا نبيع؟"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Images are representative; text is fictional.",
+          "ar": "الصور تمثيلية والنصوص افتراضية."
         },
         "ctaLabel": {
           "tr": "Ayrıntı",
@@ -2126,14 +2137,14 @@
       "data": [
         {
           "baslik": {
-            "tr": "Dizustu ve masaüstü",
+            "tr": "Dizüstü ve masaüstü",
             "en": "Laptops and desktops",
-            "ar": "حواسيب محمول وثابت"
+            "ar": "حواسيب محمولة ومكتبية"
           },
           "metin": {
-            "tr": "Sistem ve donanım seçimi.",
-            "en": "Systems and hardware choice.",
-            "ar": "اختيار نظام وعتاد."
+            "tr": "Kullanım amacına ve bütçeye göre model seçimi.",
+            "en": "Model selection by intended use and budget.",
+            "ar": "اختيار الطراز حسب الاستخدام والميزانية."
           },
           "img": "elektronik-urun-dizustu.webp",
           "alt": {
@@ -2145,14 +2156,14 @@
         },
         {
           "baslik": {
-            "tr": "Bilezik ve aksesuar",
-            "en": "Watch and accessories",
-            "ar": "ساعة وإكسسوارات"
+            "tr": "Akıllı saat ve bileklik",
+            "en": "Smartwatches and bands",
+            "ar": "ساعات وأساور ذكية"
           },
           "metin": {
-            "tr": "Saat ve küçük cihaz.",
-            "en": "Watch and small device.",
-            "ar": "ساعة وجهاز صغير."
+            "tr": "Günlük ve spor modelleri; kayış ve şarj aksesuarları.",
+            "en": "Everyday and sports models, plus straps and charging accessories.",
+            "ar": "طرازات يومية ورياضية مع أحزمة وملحقات شحن."
           },
           "img": "elektronik-urun-saat.webp",
           "alt": {
@@ -2164,14 +2175,14 @@
         },
         {
           "baslik": {
-            "tr": "Ofi seti",
-            "en": "Office set",
-            "ar": "طقم مكتب"
+            "tr": "Kulaklık ve hoparlör",
+            "en": "Headphones and speakers",
+            "ar": "سماعات رأس ومكبرات صوت"
           },
           "metin": {
-            "tr": "Klavye, mouse ve monitör.",
-            "en": "Keyboard, mouse and monitor.",
-            "ar": "لوحة مفاتيح وفأرة وشاشة."
+            "tr": "Kablosuz ve kablolu modeller; tezgâhta deneyebilirsiniz.",
+            "en": "Wireless and wired models; you can try them at the counter.",
+            "ar": "طرازات لاسلكية وسلكية يمكنك تجربتها على الطاولة."
           },
           "img": "elektronik-urun-kulaklik.webp",
           "alt": {
@@ -2229,14 +2240,14 @@
         "radius": "6px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Satışını yaptığımız markalar",
+          "en": "Brands we sell",
+          "ar": "العلامات التي نبيعها"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal marka adları; gerçek bir markaya ait değildir.",
+          "en": "Fictional brand names; they do not belong to a real brand.",
+          "ar": "أسماء علامات افتراضية لا تعود إلى علامة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2252,13 +2263,13 @@
           "name": "Demo Saat"
         },
         {
-          "name": "Demo Ofis"
+          "name": "Demo Kulaklık"
         },
         {
-          "name": "Demo Oyun"
+          "name": "Demo Ekran"
         },
         {
-          "name": "Demo Parça"
+          "name": "Demo Depolama"
         },
         {
           "name": "Demo Aksesuar"
@@ -2304,51 +2315,91 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "Garanti nasıl işler?",
+            "en": "How does the warranty work?",
+            "ar": "كيف يعمل الضمان؟"
+          },
+          "answer": {
+            "tr": "Süre ve kapsam cihaza göre değişir; garanti belgesi faturayla birlikte verilir (demo bilgi).",
+            "en": "Term and scope vary by device; the warranty document comes with the invoice (demo information).",
+            "ar": "تختلف المدة والنطاق حسب الجهاز؛ وتُسلَّم وثيقة الضمان مع الفاتورة (معلومة تجريبية)."
+          },
           "soru": {
-            "tr": "Garanti süresi nasıl?",
-            "en": "How is the warranty period?",
-            "ar": "مدة الضمان كيف؟"
+            "tr": "Garanti nasıl işler?",
+            "en": "How does the warranty work?",
+            "ar": "كيف يعمل الضمان؟"
           },
           "cevap": {
-            "tr": "Cihaza göre değişir; demo metin değil.",
-            "en": "It varies by device; not a demo text.",
-            "ar": "تتغير حسب الجهاز؛ غير نص تجريبي."
+            "tr": "Süre ve kapsam cihaza göre değişir; garanti belgesi faturayla birlikte verilir (demo bilgi).",
+            "en": "Term and scope vary by device; the warranty document comes with the invoice (demo information).",
+            "ar": "تختلف المدة والنطاق حسب الجهاز؛ وتُسلَّم وثيقة الضمان مع الفاتورة (معلومة تجريبية)."
           }
         },
         {
+          "question": {
+            "tr": "Aldığım cihazı iade edebilir miyim?",
+            "en": "Can I return a device I bought?",
+            "ar": "هل يمكنني إرجاع جهاز اشتريته؟"
+          },
+          "answer": {
+            "tr": "Koşullar satış belgesinde yazılıdır; kutusu açılmış cihazlarda servis değerlendirmesi yapılır (demo bilgi).",
+            "en": "Conditions are written on the sales document; opened devices are assessed by the service team (demo information).",
+            "ar": "الشروط مكتوبة في وثيقة البيع؛ وتُقيَّم الأجهزة المفتوحة من قبل الصيانة (معلومة تجريبية)."
+          },
           "soru": {
-            "tr": "Yedek parça bulunur mu?",
-            "en": "Are spare parts available?",
-            "ar": "هل توجد قطع غيار؟"
+            "tr": "Aldığım cihazı iade edebilir miyim?",
+            "en": "Can I return a device I bought?",
+            "ar": "هل يمكنني إرجاع جهاز اشتريته؟"
           },
           "cevap": {
-            "tr": "Depoya göre değişir; demo metindir.",
-            "en": "It varies by warehouse; this is a demo text.",
-            "ar": "تتغير حسب المستودع؛ هذا نص تجريبي."
+            "tr": "Koşullar satış belgesinde yazılıdır; kutusu açılmış cihazlarda servis değerlendirmesi yapılır (demo bilgi).",
+            "en": "Conditions are written on the sales document; opened devices are assessed by the service team (demo information).",
+            "ar": "الشروط مكتوبة في وثيقة البيع؛ وتُقيَّم الأجهزة المفتوحة من قبل الصيانة (معلومة تجريبية)."
           }
         },
         {
+          "question": {
+            "tr": "Teknik servis yapıyor musunuz?",
+            "en": "Do you offer technical service?",
+            "ar": "هل تقدمون خدمة فنية؟"
+          },
+          "answer": {
+            "tr": "Evet; arıza tespiti ve parça değişimi yapılır, onarım öncesinde bilgi ve onayınız alınır (demo).",
+            "en": "Yes; we diagnose faults and replace parts, and ask for your approval before any repair (demo).",
+            "ar": "نعم؛ نفحص الأعطال ونبدّل القطع ونأخذ موافقتك قبل أي إصلاح (تجريبي)."
+          },
+          "soru": {
+            "tr": "Teknik servis yapıyor musunuz?",
+            "en": "Do you offer technical service?",
+            "ar": "هل تقدمون خدمة فنية؟"
+          },
+          "cevap": {
+            "tr": "Evet; arıza tespiti ve parça değişimi yapılır, onarım öncesinde bilgi ve onayınız alınır (demo).",
+            "en": "Yes; we diagnose faults and replace parts, and ask for your approval before any repair (demo).",
+            "ar": "نعم؛ نفحص الأعطال ونبدّل القطع ونأخذ موافقتك قبل أي إصلاح (تجريبي)."
+          }
+        },
+        {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir demo sitedir. Görseller temsilî; adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a demo site. Images are representative; names, figures and people are fictional.",
+            "ar": "لا؛ هذا موقع تجريبي. الصور تمثيلية والأسماء والأرقام والأشخاص افتراضيون."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
-            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
-            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
-          }
-        },
-        {
-          "soru": {
-            "tr": "Fiyatlar nasıl belirlenir?",
-            "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
-          },
-          "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Hayır; bu bir demo sitedir. Görseller temsilî; adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a demo site. Images are representative; names, figures and people are fictional.",
+            "ar": "لا؛ هذا موقع تجريبي. الصور تمثيلية والأسماء والأرقام والأشخاص افتراضيون."
           }
         }
       ],
@@ -2406,9 +2457,9 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "6px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Fiyat ve stok sorun",
+          "en": "Ask about price and stock",
+          "ar": "اسأل عن السعر والمخزون"
         },
         "description": {
           "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
@@ -2421,18 +2472,18 @@
           "ar": "Tekno Mağaza"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Images are representative; text is fictional.",
+          "ar": "الصور تمثيلية والنصوص افتراضية."
         },
         "address": {
           "tr": "Çark Sokak No: 15, Şahinbey, Gaziantep (kurgusal adres)",
-          "en": "15 Çark Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع قرص رقم 15، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "en": "15 Cark Street, Sahinbey, Gaziantep (fictional address)",
+          "ar": "شارع تشارك رقم 15، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 020 01 09",
         "whatsapp": "903420200109",
-        "email": "cihaz@teknomaaza.example",
+        "email": "cihaz@teknomagaza.example",
         "hours": {
           "tr": "Pzt–Cmt 10:00 – 20:00",
           "en": "Mon–Sat 10:00 – 20:00",
@@ -2477,9 +2528,9 @@
         },
         "social": [],
         "formTitle": {
-          "tr": "Teklif formu",
-          "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "tr": "Bilgi formu",
+          "en": "Enquiry form",
+          "ar": "نموذج استفسار"
         },
         "nameLabel": {
           "tr": "Ad Soyad",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Fiyat ve stok bilgisi",
+              "en": "Price and stock",
+              "ar": "السعر والمخزون"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Teknik servis",
+              "en": "Technical service",
+              "ar": "خدمة فنية"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Kurumsal toplu alım",
+              "en": "Bulk purchase for business",
+              "ar": "شراء بالجملة للشركات"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,32 +2691,32 @@
           "ar": "Tekno Mağaza"
         },
         "description": {
-          "tr": "Tekno Mağaza, cihaz ve aksesuar satıyor. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Tekno sells devices and accessories. Images are representative and text is fictional.",
-          "ar": "يباع تكنو أجهزة وإكسسوارات. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Tekno Mağaza, dizüstü, akıllı saat, kulaklık ve aksesuar satan; teknik servis ve garanti desteğini aynı çatıda sunan kurgusal bir demo mağazadır. Görseller temsilî, metinler kurgusaldır.",
+          "en": "Tekno Mağaza is a fictional demo store that sells laptops, smartwatches, headphones and accessories and offers technical service and warranty support under one roof. Images are representative and text is fictional.",
+          "ar": "تكنو ماغازا متجر تجريبي افتراضي يبيع حواسيب محمولة وساعات ذكية وسماعات وإكسسوارات ويقدّم الخدمة الفنية ودعم الضمان تحت سقف واحد. الصور تمثيلية والنصوص افتراضية."
         },
         "name2": {
-          "tr": "Showroom",
-          "en": "Showroom",
-          "ar": "قاعة عرض"
+          "tr": "Tezgâhta deneme",
+          "en": "Try at the counter",
+          "ar": "جرّب على الطاولة"
         },
         "spot2": {
-          "tr": "Cihaz ve aksesuar aynı rafta.",
-          "en": "Device and accessories on the same shelf.",
-          "ar": "الجهاز والإكسسوارات على نفس الرف."
+          "tr": "Cihazları satın almadan önce tezgâhta deneyebilirsiniz.",
+          "en": "You can try devices at the counter before buying.",
+          "ar": "يمكنك تجربة الأجهزة على الطاولة قبل الشراء."
         },
-        "icon2": "verified",
+        "icon2": "devices",
         "name3": {
-          "tr": "Arıza defteri",
-          "en": "Fault book",
-          "ar": "دفتر العطل"
+          "tr": "Servis kaydı",
+          "en": "Service record",
+          "ar": "سجل الصيانة"
         },
         "spot3": {
-          "tr": "Her arıza kayıt ve çözüm.",
-          "en": "Every fault is recorded and solved.",
-          "ar": "كل عطل مسجل وحل."
+          "tr": "Her onarım için işlem ve parça kaydı tutulur.",
+          "en": "A record of the work and parts is kept for every repair.",
+          "ar": "يُحتفظ بسجل للعمل والقطع لكل إصلاح."
         },
-        "icon3": "schedule",
+        "icon3": "edit_note",
         "img": "elektronik-servis.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
@@ -2735,11 +2787,11 @@
         },
         "phone": "+90 342 020 01 09",
         "whatsapp": "903420200109",
-        "email": "cihaz@teknomaaza.example",
+        "email": "cihaz@teknomagaza.example",
         "address": {
           "tr": "Çark Sokak No: 15, Şahinbey, Gaziantep (kurgusal adres)",
-          "en": "15 Çark Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع قرص رقم 15، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "en": "15 Cark Street, Sahinbey, Gaziantep (fictional address)",
+          "ar": "شارع تشارك رقم 15، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "mapsUrl": "",
         "waMessage": {
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Pzt–Cmt 10:00 – 20:00",
+          "en": "Mon–Sat 10:00 – 20:00",
+          "ar": "الاثنين–السبت 10:00 – 20:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2783,9 +2835,9 @@
           "ar": "البريد الإلكتروني"
         },
         "mailText": {
-          "tr": "Teklif ve detaylı sorular için",
-          "en": "For quotes and detailed questions",
-          "ar": "لعروض الأسعار والأسئلة التفصيلية"
+          "tr": "Fiyat, stok ve servis soruları için",
+          "en": "For price, stock and service questions",
+          "ar": "لأسئلة السعر والمخزون والصيانة"
         },
         "mailBtn": {
           "tr": "E-posta gönder",
@@ -2847,25 +2899,25 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "6px",
         "title": {
-          "tr": "Cihaz hazır",
-          "en": "Device ready",
-          "ar": "الجهاز جاهز"
+          "tr": "Cihazınızı birlikte seçelim",
+          "en": "Let us choose your device together",
+          "ar": "لنختر جهازك معًا"
         },
         "text": {
-          "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
-          "en": "We reply within two business days. No data is stored on this demo site.",
-          "ar": "نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "tr": "İhtiyacınızı yazın; uygun modelleri ve stok durumunu bildirelim. Bu demo sitede veri saklanmaz.",
+          "en": "Tell us what you need and we will suggest suitable models and stock status. No data is stored on this demo site.",
+          "ar": "اكتب لنا ما تحتاجه ونخبرك بالطرازات المناسبة وحالة المخزون. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
         },
         "btn1Label": {
-          "tr": "Formu doldurun",
-          "en": "Fill the form",
-          "ar": "املأ النموذج"
+          "tr": "Fiyat sorun",
+          "en": "Ask for a price",
+          "ar": "اسأل عن السعر"
         },
         "btn1Url": "teklif-al",
         "btn2Label": {
-          "tr": "Hizmetleri gör",
-          "en": "See services",
-          "ar": "شاهد الخدمات"
+          "tr": "Ürün gruplarını görün",
+          "en": "See product groups",
+          "ar": "شاهد مجموعات المنتجات"
         },
         "btn2Url": "hizmetler",
         "number": "903420200109",
@@ -2891,9 +2943,9 @@
           "ar": "ساعات العمل"
         },
         "waMessage": {
-          "tr": "Merhaba, Tekno Mağaza ile iletişime geçmek istiyorum.",
-          "en": "Hello, I would like to get in touch with Tekno Mağaza.",
-          "ar": "مرحبًا، أودّ التواصل مع Tekno Mağaza."
+          "tr": "Merhaba, Tekno Mağaza'dan bir cihaz hakkında bilgi almak istiyorum.",
+          "en": "Hello, I would like some information about a device from Tekno Mağaza.",
+          "ar": "مرحبًا، أودّ الحصول على معلومات عن جهاز من تكنو ماغازا."
         },
         "img": "",
         "alt": {
@@ -2947,7 +2999,7 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "6px",
         "logo_maxh": "52px",
-        "logo_plate": false,
+        "logo_plate": true,
         "about": {
           "tr": "Tekno Mağaza demo temadır; içerik kurgusaldır.",
           "en": "Tekno Mağaza is a demo theme; the content is fictional.",
@@ -3055,11 +3107,11 @@
         "hours": [],
         "address": {
           "tr": "Çark Sokak No: 15, Şahinbey, Gaziantep (kurgusal adres)",
-          "en": "15 Çark Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع قرص رقم 15، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "en": "15 Cark Street, Sahinbey, Gaziantep (fictional address)",
+          "ar": "شارع تشارك رقم 15، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 020 01 09",
-        "email": "cihaz@teknomaaza.example",
+        "email": "cihaz@teknomagaza.example",
         "social": [],
         "legal": [
           {

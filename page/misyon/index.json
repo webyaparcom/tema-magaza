@@ -27,9 +27,9 @@
   "index": 0,
   "url": "",
   "text": {
-    "tr": "<h2>Misyonumuz</h2>\n<p>Açık fiyat ve zamanında kurulum sunmak.</p>",
-    "en": "<h2>Our mission</h2>\n<p>To offer clear prices and on-time setup.</p>",
-    "ar": "<h2>مهمتنا</h2>\n<p>تقديم أسعار واضحة وإعداد في الوقت.</p>"
+    "tr": "<h2>Misyonumuz</h2>\n<p>Doğru cihazı seçmenize yardım etmek; garanti ve servis desteğini açık biçimde sunmak.</p>",
+    "en": "<h2>Our mission</h2>\n<p>To help you choose the right device and to present warranty and service support clearly.</p>",
+    "ar": "<h2>مهمتنا</h2>\n<p>مساعدتك على اختيار الجهاز المناسب وتقديم الضمان والدعم الفني بوضوح.</p>"
   },
   "title": {
     "tr": "Misyon",
@@ -37,7 +37,7 @@
     "ar": "المهمة"
   },
   "date": "2026-11-05T18:57:25.236Z",
-  "update": "2026-11-05T23:44:43.242Z",
+  "update": "2026-11-12T07:36:28.751Z",
   "sablonIzi": "a8a6ac234dced5af",
   "sablonIziDil": {
     "en": "3f5f6c628dec679f",
